@@ -44,41 +44,6 @@ activities = {
         "description": "Join the school soccer team and compete in matches",
         "schedule": "Wednesdays, 4:00 PM - 5:30 PM",
         "max_participants": 22,
-        "participants": ["alex@mergington.edu", "lucas@mergington.edu"]
-    },
-    "Basketball Club": {
-        "description": "Practice basketball skills and play friendly games",
-        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
-        "max_participants": 15,
-        "participants": ["mia@mergington.edu", "noah@mergington.edu"]
-    },
-    # Artistic activities
-    "Art Workshop": {
-        "description": "Explore painting, drawing, and other visual arts",
-        "schedule": "Mondays, 4:00 PM - 5:30 PM",
-        "max_participants": 18,
-        "participants": ["ava@mergington.edu", "liam@mergington.edu"]
-    },
-    "Drama Club": {
-        "description": "Act, direct, and produce school plays and performances",
-        "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
-        "max_participants": 20,
-        "participants": ["ella@mergington.edu", "jack@mergington.edu"]
-    },
-    # Intellectual activities
-    "Math Olympiad": {
-        "description": "Prepare for and participate in math competitions",
-        "schedule": "Fridays, 4:00 PM - 5:30 PM",
-        "max_participants": 10,
-        "participants": ["ethan@mergington.edu", "grace@mergington.edu"]
-    },
-    "Science Club": {
-        "description": "Conduct experiments and explore scientific topics",
-        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
-        "max_participants": 16,
-        "participants": ["chloe@mergington.edu", "ben@mergington.edu"]
-    }
-}
 
 
 @app.get("/")
